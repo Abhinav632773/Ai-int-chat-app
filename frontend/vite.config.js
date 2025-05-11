@@ -9,5 +9,6 @@ export default defineConfig({
       "Cross-Origin-Embedder-Policy":" require-corp",
       "Cross-Origin-Opener-Policy": "same-origin"
     }
-  }
+  },
+  base: process.env.VITE_BASE_URL || '/Ai-int-chat-app',
 })
