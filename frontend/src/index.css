@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* AI Code Block Styling */
+.ai-code {
+    background: #1a1a1a;
+    color: #e0e0e0;
+    border-radius: 4px;
+    padding: 1rem;
+    font-family: 'Fira Code', monospace;
+  }
+  
+  /* Syntax Highlighting Colors */
+  .hljs-keyword { color: #c586c0; }      /* function, if, return */
+  .hljs-title { color: #569cd6; }        /* function names */
+  .hljs-params { color: #9cdcfe; }       /* parameters */
+  .hljs-comment { color: #6a9955; }      /* comments */
+  .hljs-string { color: #ce9178; }       /* strings */
+  .hljs-built_in { color: #4ec9b0; }     /* Array, Error */
+  .hljs-doctag { color: #4ec9b0; }       /* @param, @returns */
+  .hljs-meta { color: #d7ba7d; }         /* validation keywords */
