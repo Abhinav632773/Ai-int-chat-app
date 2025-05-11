@@ -229,7 +229,7 @@ const FileEditor = ({ file, content, webcontainerInstance, fileTree }) => {
 
   const handleUrlChange = (e) => {
     const newUrl = e.target.value;
-    setEditableUrl(newUrl);
+    setEditableeUrl(newUrl);
   };
 
   const handleUrlSubmit = (e) => {
